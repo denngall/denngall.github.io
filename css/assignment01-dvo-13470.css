@@ -1,0 +1,504 @@
+* {
+    font-family: "Ubuntu Light";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 48, 48);
+    overflow: hidden;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(194, 194, 8);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(194, 194, 8);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.worklist {
+    display: block;
+}
+
+a:hover {
+    background-color: rgb(194, 194, 8);
+    color: black;
+}
+
+#slogan {
+    display: block;
+    background-image: url("../img/mainimageback.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 0);
+}
+
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu Light";
+    src: url("../fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu Medium";
+    src: url("../fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu Italic";
+    src: url("../fonts/Ubuntu-Italic.ttf");
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu Medium";
+} 
+
+h1 {
+    font-family: "Ubuntu Bold";
+    font-size: 5em;
+    margin-left: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 85%;
+    height: 1px;
+    border-color: rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+}
+
+footer {
+    margin-top: 5%;
+    border-color: rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(194, 194, 8);
+}
+
+#copyright {
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    text-align: center;
+    color: rgb(194, 194, 8);
+}
+
+#backtotop {
+    text-align: center;
+    padding: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border-color: rgb(194, 194, 8);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+}
+
+div a {
+    font-size: 1.5em;
+    color: rgb(194, 194, 8);
+}
+
+div p {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#navigation {
+    margin: 0;
+}
+
+#aboutcomm {
+    font-size: 3em;
+    text-align: center;
+}
+
+#comments {
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid rgb(194, 194, 8);
+    color: rgb(194, 194, 8);
+    background-color:  rgb(48, 48, 48);
+    overflow: scroll;
+}
+
+th {
+    width: 36%;
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5;
+    font-family: "Ubuntu Italic";
+    font-size: 2em;
+}
+
+td {
+    text-align: right;
+}
+
+#contactnow {
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px double rgb(48, 48, 48);
+    border-radius: 5px;
+    background-color:  rgb(194, 194, 8);
+}
+
+#bottomnav {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.bottomlink {
+    margin: auto;
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+/* Form */
+
+#form {
+    display: block;
+    text-align: center;
+    color: rgb(194, 194, 8);
+    background-color: rgb(48, 48, 48);
+    border-style: double;
+    border-color: rgb(194, 194, 8);
+}
+
+.button {
+    font-family: "Ubuntu Light";
+    font-size: 0.75em;
+    width: 20%;
+    margin: 5%;
+}
+
+
+/* References */
+
+#ref {
+    display: block;
+    font-size: 3em;
+}
+
+#refimg {
+    overflow: scroll;
+}
+
+/* Responsive design */
+
+@media only screen {
+    [class*="col-"] {
+        font-size: 1em;
+        width: 100%;
+        float: left;
+    }
+
+    .col-d-1 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .col-d-8 {
+        font-size: 5em;
+        text-align: left;
+        line-height: 0.3;
+    }
+
+    .col-d-9 {
+        font-size: 1.2em;
+        line-height: 1;
+        background-color: rgba(0,0,0,0.5);
+        width: 80%;
+    }
+
+    .col-d-10 {
+        font-size: 1.8em;
+        line-height: 1;
+        background-color: rgba(0,0,0,0.5);
+        width: 90%;
+    }
+
+    .col-d-11 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7em;
+    }
+
+    #shakehands {
+        width: 85%;
+        height: 30%;
+        float: left;
+        margin-left: 7.5%;
+    }
+
+    #leftparagraph {
+        margin-left: 10%;
+        text-align: center;
+        font-size: 1.25em;
+        float: left;
+        width: 80%;
+    }
+
+    #rockband {
+        width: 85%;
+        height: 30%;
+        float: left;
+        margin-left: 7.5%;    
+    }
+        
+    #rightparagraph {
+        margin-left: 10%;
+        text-align: center;
+        font-size: 1.25em;
+        float: left;
+        width: 80%;
+    }
+    #backtotop {
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        text-decoration: none;
+        margin: auto;
+    }
+    #bottomnav {
+        text-align: center;
+        font-size: 0.5em;
+        width: 90%;
+        margin: auto;
+    }
+
+    .contacttxt {
+        font-family: "Ubuntu Bold";
+        font-size: 1.5em;
+        color: rgb(48, 48, 48);
+    }
+ 
+}
+
+@media only screen and (min-width: 601px) {
+    [class*="col-t-"] {
+        font-size: 1em;
+    }
+
+    .col-d-1 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .col-d-3 {
+        width: 25%;
+    }
+
+    .col-d-4 {
+        width: 25%;
+    }
+
+    .col-d-5 {
+        width: 25%;
+    }
+
+    .col-d-6 {
+        width: 25%;
+    }
+
+    .col-d-8 {
+        font-size: 10em;
+        text-align: left;
+        margin-left: 3%;
+        line-height: 0.05;
+    }
+
+    .col-d-9 {
+        font-size: 2.5em;
+        margin-left: 3%;
+        line-height: 0.2;
+        text-align: left;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+    }
+
+    .col-d-10 {
+        font-size: 3.5em;
+        line-height: 0.1;
+        margin-left: 3%;
+        text-align: left;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+    }
+
+    #leftparagraph {
+        font-size: 1.25em;
+        width: 85%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    #rightparagraph {
+        font-size: 1.25em;
+        width: 85%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #bottomnav {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contacttxt {
+        font-family: "Ubuntu Bold";
+        font-size: 1.5em;
+        color: rgb(48, 48, 48);
+    }
+}
+
+ @media only screen and (min-width: 991px) {
+    [class*="col-d-"] {
+         font-size: 1em;
+    }
+
+    .col-d-1 {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .col-d-3 {
+        width: 15%;
+    }
+
+    .col-d-4 {
+        width: 15%;
+    }
+
+    .col-d-5 {
+        width: 15%;
+    }
+
+    .col-d-6 {
+        width: 15%;
+    }
+
+    .col-d-8 {
+        font-size: 17em;
+        text-align: left;
+        margin-left: 3%;
+        line-height: 0.05;
+    }
+
+    .col-d-9 {
+        font-size: 3.5em;
+        margin-left: 3%;
+        line-height: 0.2;
+        text-align: left;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+    }
+
+    .col-d-10 {
+        font-size: 6em;
+        line-height: 0.1;
+        margin-left: 3%;
+        text-align: left;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+    }
+
+    #shakehands {
+        width: 40%;
+        height: 20%;
+        float: right;
+        margin-right: 7.45%;
+        margin-left: 0;
+    }
+    
+    #rockband {
+        width: 40%;
+        height: 20%;
+        float: left;
+        margin-left: 7.45%;
+    }
+
+    #leftparagraph {
+        font-size: 2em;
+        margin: 7.5%;
+        display: block;
+        width: 35%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    #rightparagraph {
+        font-size: 2em;
+        margin-top: 7.5%;
+        margin-left: 4.5%;
+        display: block;
+        width: 40%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #form {
+        font-size: 2.5em;
+        margin: auto;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        width: 35%;
+        line-height: 1;
+    }
+
+    .input {
+        width: 50%;
+        height: 30px;
+    }
+
+    #bottomnav {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 10px;
+        width: 50%;
+        margin: auto;
+    }
+
+    .contacttxt {
+        font-family: "Ubuntu Bold";
+        font-size: 2.5em;
+        color: rgb(48, 48, 48);
+    }
+
+}
