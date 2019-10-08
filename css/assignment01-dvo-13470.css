@@ -223,6 +223,7 @@ td {
 }
 
 #personalinfo {
+    margin: auto;
     margin-top: 2%;
     margin-bottom: 5%;
     text-align: center;
@@ -256,6 +257,16 @@ div h4 {
     list-style-type: circle;
 }
 
+.resumep {
+    text-align: left;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.link02 {
+    font-size: 1em;
+    color: rgb(194, 194, 8)
+}
 /* References */
 
 #ref {
