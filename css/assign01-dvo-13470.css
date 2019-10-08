@@ -420,6 +420,30 @@ div h4 {
         height: 100%;
     }
     
+    #authorsname {
+        text-align: center;
+        font-size: 2em;
+        /* float: left; */
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .resumep02 {
+        width: 80%;
+        text-align: left;
+        font-size: 1.25em;
+        padding: 5px;
+        margin-left: 10%;
+    }
+    
+    .resumep03 {
+        width: 80%;
+        text-align: left;
+        font-size: 1.25em;
+        padding: 5px;
+        margin-left: 10%;
+    }
+
     #personalinfo {
         font-size: 1.5em;
     }
@@ -541,9 +565,32 @@ div h4 {
     }
 
     .danvolimg {
-        margin-left: 7.5%;
-        width: 20%;
-        height: 50%;
+        margin-left: 30%;
+        width: 40%;
+        height: 70%;
+    }
+
+    .resumep02 {
+        width: 80%;
+        text-align: left;
+        padding: 5px;
+        margin-left: 10%;
+    }
+
+    .resumep03 {
+        width: 80%;
+        text-align: left;
+        padding: 5px;
+        margin-left: 10%;
+        float: left;
+    }
+
+    #authorsname {
+        text-align: center;
+        font-size: 2em;
+        /* float: left; */
+        margin-left: 10%;
+        width: 80%;
     }
 }
 
@@ -655,10 +702,34 @@ div h4 {
         margin: auto;
     }
 
+    #authorsname {
+        text-align: left;
+        font-size: 2.5em;
+        padding: 5px;
+        margin-left: 7.5%;
+        width: 40%;
+    }
+
     .danvolimg {
+        float: left;
         margin-left: 7.5%;
         width: 20%;
         height: 50%;
+    }
+
+    .resumep02 {
+        font-size: 2em;
+        text-align: left;
+        padding: 5px;
+        margin-left: 7.5%;
+    }
+
+    .resumep03 {
+        font-size: 2em;
+        width: 40%;
+        text-align: left;
+        padding: 5px;
+        margin-left: 7.5%;
     }
 
     .contacttxt {
