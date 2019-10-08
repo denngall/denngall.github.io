@@ -267,6 +267,10 @@ div h4 {
     font-size: 1em;
     color: rgb(194, 194, 8)
 }
+
+#header {
+    font-size: 5em;
+}
 /* References */
 
 #ref {
@@ -276,6 +280,15 @@ div h4 {
 
 #refimg {
     overflow: scroll;
+}
+
+/* img */
+
+.danvolimg {
+    margin-left: 7.5%;
+    float: left;
+    width: 20%;
+    height: 50%;
 }
 
 /* Responsive design */
@@ -288,7 +301,7 @@ div h4 {
     }
 
     #header {
-        font-size: 0.75;
+        font-size: 2.5em;
         text-align: center;
     }
 
@@ -348,6 +361,11 @@ div h4 {
         float: left;
         width: 80%;
     }
+
+    #centrpar {
+        width: 80%;
+        font-size: 1.75em;
+    }
     #backtotop {
         text-align: center;
         width: 30%;
@@ -389,7 +407,7 @@ div h4 {
     }
 
     #header {
-        font-size: 1em;
+        font-size: 5em;
         text-align: center;
     }
 
@@ -448,6 +466,12 @@ div h4 {
         line-height: 1.5;
     }
 
+    #centrpar {
+        width: 80%;
+        font-size: 2em;
+    }
+    
+
     #bottomnav {
         text-align: center;
         font-size: 1.2em;
@@ -482,6 +506,7 @@ div h4 {
     }
 
     .button {
+        font-size: 0.75em;
         width: 40%;
         height: 35px;
 }
@@ -492,6 +517,7 @@ div h4 {
     }
 
     #header {
+        font-size: 5em;
         text-align: left;
     }
 
@@ -535,16 +561,6 @@ div h4 {
         background-color: rgba(0,0,0,0);
         width: 100%;
     }
-
-    /* .col-d-11 {
-        width: 50%;
-        margin: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 10px;
-        font-size: 2.5em;
-        text-align: center;
-    } */
 
     #shakehands {
         width: 40%;
@@ -609,4 +625,9 @@ div h4 {
         color: rgb(48, 48, 48);
     }
 
+    .button {
+        font-size: 0.75em;
+        width: 40%;
+        height: 40px;
+    }
 }}
