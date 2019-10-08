@@ -90,6 +90,8 @@ hr {
 }
 
 footer {
+    float: left;
+    width: 100%;
     margin-top: 5%;
     border-color: rgb(48, 48, 48);
     background-color: rgb(48, 48, 48);
@@ -109,6 +111,7 @@ footer {
 
 #backtotop {
     text-align: center;
+    float: left;
     padding: 10px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -250,6 +253,7 @@ div h3 {
 }
 
 div h4 {
+    float: left;
     font-size: 1.5em;
 }
 
@@ -258,12 +262,23 @@ div h4 {
 }
 
 .resumep {
+    float: left;
     text-align: left;
     padding: 5px;
     margin-left: 10%;
+    width: 80%;
+}
+
+.resumep02 {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 5px;
+    margin-left: 7.5%;
 }
 
 .link02 {
+    line-height: 2;
     font-size: 1em;
     color: rgb(194, 194, 8)
 }
@@ -271,6 +286,14 @@ div h4 {
 #header {
     font-size: 5em;
 }
+
+#authorsname {
+    font-size: 2em;
+    float: left;
+    margin-left: 7.5%;
+    width: 60%;
+}
+
 /* References */
 
 #ref {
@@ -280,15 +303,6 @@ div h4 {
 
 #refimg {
     overflow: scroll;
-}
-
-/* img */
-
-.danvolimg {
-    margin-left: 7.5%;
-    float: left;
-    width: 20%;
-    height: 50%;
 }
 
 /* Responsive design */
@@ -366,13 +380,14 @@ div h4 {
         width: 80%;
         font-size: 1.75em;
     }
+
     #backtotop {
         text-align: center;
+        margin-left: 35%;
         width: 30%;
-        padding: 10px;
         text-decoration: none;
-        margin: auto;
     }
+
     #bottomnav {
         text-align: center;
         font-size: 0.5em;
@@ -397,8 +412,21 @@ div h4 {
         width: 50%;
         height: 30px;
     }
+
+    .danvolimg {
+        float: left;
+        margin-left: 15%;
+        width: 70%;
+        height: 100%;
+    }
     
- 
+    #personalinfo {
+        font-size: 1.5em;
+    }
+
+    .resumep {
+        font-size: 1.25em;
+    }
 }
 
 @media only screen and (min-width: 601px) {
@@ -489,6 +517,7 @@ div h4 {
     }
 
     #backtotop {
+        margin-left: 40%;
         text-align: center;
         width: 20%;
     }
@@ -509,6 +538,13 @@ div h4 {
         font-size: 0.75em;
         width: 40%;
         height: 35px;
+    }
+
+    .danvolimg {
+        margin-left: 7.5%;
+        width: 20%;
+        height: 50%;
+    }
 }
 
  @media only screen and (min-width: 991px) {
@@ -619,6 +655,12 @@ div h4 {
         margin: auto;
     }
 
+    .danvolimg {
+        margin-left: 7.5%;
+        width: 20%;
+        height: 50%;
+    }
+
     .contacttxt {
         font-family: "Ubuntu Bold";
         font-size: 2.5em;
@@ -630,4 +672,4 @@ div h4 {
         width: 40%;
         height: 40px;
     }
-}}
+}
