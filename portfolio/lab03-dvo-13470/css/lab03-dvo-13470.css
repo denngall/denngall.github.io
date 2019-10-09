@@ -1,0 +1,299 @@
+/* id */
+
+#mainface {
+    top: 13%;
+    margin-left: 4%;
+
+    width: 40%;
+    height: 44%;
+}
+
+#maintext {
+    position: absolute;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-style: oblique;
+    text-align: center;
+
+    margin-left: 4%;
+    top: 49%;
+    width: 40%;
+}
+
+#mainback {
+    top: 13%;
+    margin-left: 50%;
+
+    width: 40%;
+    height: 77%;
+}
+
+#squarehorizontal01 {
+    position: absolute;
+    background-color: white;
+
+    margin-left: 14%;
+    top: 17%;
+
+    width: 20%;
+    height: 1%;
+}
+
+#squarehorizontal02 {
+    position: absolute;
+    background-color: white;
+
+    margin-left: 14%;
+    top: 48%;
+
+    width: 20%;
+    height: 1%;
+}
+
+#squareside01 {
+    position: absolute;
+    background-color: white;
+
+    margin-left: 14%;
+    top: 17%;
+
+    width: 0.5%;
+    height: 31%;
+}
+
+#squareside02 {
+    position: absolute;
+    background-color: white;
+
+    margin-left: 33.5%;
+    top: 17%;
+
+    width: 0.5%;
+    height: 31%;
+}
+
+#bottomface {
+    position: absolute;
+    background-color: dimgrey;
+
+    margin-left: 4%;
+    top: 89.75%;
+    width: 40%;
+    height: 8%;
+}
+
+#bottomlineface {
+    position: absolute;
+    background-color: darkgray;
+
+    margin-left: 4%;
+    top: 87%;
+
+    width: 40%;
+    height: 3%;
+}
+
+#bottomlineback {
+    position: absolute;
+    background-color: darkgray;
+
+    margin-left: 50%;
+    top: 70%;
+
+    width: 40%;
+}
+
+#multimedia {
+    position: absolute;
+
+    font-size: 38px;
+    
+    top: 21%;
+    margin-left: 17%;
+}
+
+#web {
+    position: absolute;
+
+    font-size: 42px;
+
+    top: 29.5%;
+    margin-left: 21.25%;
+}
+
+#development {
+    position: absolute;
+
+    font-size: 38px;
+
+    top: 38%;
+    margin-left: 15.5%;
+}
+
+#img01 {
+    position: absolute;
+    margin-left: 5%;
+    height: 10.5%;
+    width: 5%;
+}
+
+#img02 {
+    position: absolute;
+    margin-left: 12%;
+    top: 9.15%;
+    height: 2.5%;
+    width: 16%;
+}
+
+#toplineface {
+    top: 12%;
+    margin-left: 4%;
+}
+
+#toplineback {
+    top: 12%;
+    margin-left: 50%;
+}
+
+#courseoutline {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+
+    width: 40%;
+    margin-left: 50%;
+    top: 4.5%;
+}
+
+#whatstudy {
+    position: absolute;
+    font-size: 20px;
+    top: 14%;
+    margin-left: 62%;
+}
+
+#muchmore {
+    position: absolute;
+
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 65%;
+    top: 38%;
+}
+
+#table01 {
+    position: absolute;
+
+    width: 36%;
+    height: 13%;
+    top: 47%;
+    margin-left: 52%;
+}
+
+#table02 {
+    position: absolute;
+
+    width: 36%;
+    height: 13%;
+    top: 75%;
+    margin-left: 52%;
+}
+
+#list01 {
+    position: absolute;
+    text-align: left;
+    margin-left: 50%;
+    top: 18%;
+    height: 15%;
+    width: 20%;
+}
+
+#list02 {
+    position: absolute;
+    text-align: left;
+    margin-left: 69%;
+    top: 18%;
+    height: 15%;
+    width: 21%;
+}
+
+#coursedescription {
+    position: absolute;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    width: 37%;
+    top: 63%;
+    margin-left: 6%;
+}
+
+#references {
+    position: absolute;
+    background-color: dimgrey;
+    font-size: 10px;
+    text-align: center;
+
+    margin-left: 50%;
+    top: 88%;
+    width: 40%;
+    height: 8%;
+}
+
+#reflinks {
+    position: absolute;
+    font-size: 8.5px;
+
+    margin-left: 52%;
+    top: 91%;
+    width: 40%;
+    height: 8%;
+}
+#usefullinks {
+    position: absolute;
+
+    margin-left: 50%;
+    top: 62%;
+    width: 40%;
+}
+
+/* classes */
+
+.mainbackground {
+    position: absolute;
+    background-image: linear-gradient(#004600, #00b400);
+}
+
+.infotext {
+    text-align: center;
+    line-height: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.greyline {
+    position: absolute;
+    background-color: darkgrey;
+    width: 40%;
+    height: 1%;
+}
+
+.contacttxt  {
+    color:white;
+    font-size: 17px;
+    transform: rotate(270deg);
+}
+
+td {
+    padding: 2px;
+    text-align: left;
+}
