@@ -301,8 +301,8 @@ div h4 {
     font-size: 3em;
 }
 
-#refimg {
-    overflow: scroll;
+.worklist {
+    float: left;
 }
 
 /* Responsive design */
@@ -451,6 +451,65 @@ div h4 {
     .resumep {
         font-size: 1.25em;
     }
+
+    iframe {
+        margin: 10%;
+        width: 80%;
+        height: 40%;
+    }
+}
+
+/* animation */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.col-d-8 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+}
+.col-d-9 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+}
+.col-d-10 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+form {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
 }
 
 @media only screen and (min-width: 601px) {
@@ -588,9 +647,14 @@ div h4 {
     #authorsname {
         text-align: center;
         font-size: 2em;
-        /* float: left; */
         margin-left: 10%;
         width: 80%;
+    }
+
+    iframe {
+        margin-left: 10%;
+        width: 80%;
+        height: 35%;
     }
 }
 
@@ -643,6 +707,11 @@ div h4 {
         text-align: left;
         background-color: rgba(0,0,0,0);
         width: 100%;
+    }
+
+    #centrpar {
+        width: 80%;
+        font-size: 2.5em;
     }
 
     #shakehands {
@@ -742,5 +811,12 @@ div h4 {
         font-size: 0.75em;
         width: 40%;
         height: 40px;
+    }
+
+    iframe {
+        margin: 0;
+        margin-left: 17.5%;
+        width: 40%;
+        height: 35%;
     }
 }

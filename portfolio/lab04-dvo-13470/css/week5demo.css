@@ -1,0 +1,41 @@
+div {
+    border: 3px;
+    border-style: dotted;
+    border-color: red;
+    float: left;
+    padding: 1%; 
+    /* This ne css k/v pair to make sure all the padding and borders are contaiined with the spacing */
+    box-sizing: border-box;
+    margin: 3%;
+}
+
+/* formating for mobiles */
+
+[class*="col-"] {
+
+    font-size: 1em;
+    width: 94%;
+    background-color: lightcoral;
+}
+
+/* Formating the tablets */
+@media only screen and (min-width: 600px) {
+    [class*="col-t-"] {
+        font-size: 1.5em;
+        width: 44%;
+        background-color: yellow;
+    }
+    .col-d-3 {
+        width: 94%;
+    }
+}
+
+/* This is the div formating for a desktop */
+
+@media only screen and (min-width: 768px) {
+    [class*="col-d-"] {
+        font-size: 2em;
+        width: 27%;
+        background-color: lightgreen;  
+    }
+}
