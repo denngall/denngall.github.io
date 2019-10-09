@@ -110,16 +110,25 @@ footer {
 }
 
 #backtotop {
+    display: block;
+    overflow: hidden;
     text-align: center;
+    font-size: 2em;
     float: left;
     padding: 10px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    color: rgb(194, 194, 8);
     border-color: rgb(194, 194, 8);
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     background-color: rgb(48, 48, 48);
+}
+
+iframe {
+    border-color: rgb(194, 194, 8);
+    border-style: solid;
 }
 
 div a {
@@ -217,6 +226,13 @@ td {
     border-color: rgb(141, 141, 9);
 }
 
+.contacttxt {
+    font-family: "Ubuntu Bold";
+    color: rgb(48, 48, 48);
+    display: block;
+    overflow: hidden;
+}
+
 /* Resume */
 
 #resume {
@@ -303,6 +319,63 @@ div h4 {
 
 .worklist {
     float: left;
+}
+
+/* animation */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.col-d-8 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+}
+.col-d-9 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+}
+.col-d-10 {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+form {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.refscroll {
+    overflow: scroll;
 }
 
 /* Responsive design */
@@ -402,9 +475,7 @@ div h4 {
     }
 
     .contacttxt {
-        font-family: "Ubuntu Bold";
         font-size: 1.5em;
-        color: rgb(48, 48, 48);
     }
 
     .button {
@@ -423,7 +494,6 @@ div h4 {
     #authorsname {
         text-align: center;
         font-size: 2em;
-        /* float: left; */
         margin-left: 10%;
         width: 80%;
     }
@@ -457,59 +527,10 @@ div h4 {
         width: 80%;
         height: 40%;
     }
-}
 
-/* animation */
-
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0;
+    h2 {
+        font-size: 1.5em;
     }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-.col-d-8 {
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 1s;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
-
-}
-.col-d-9 {
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 1s;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-delay: 1s;
-
-}
-.col-d-10 {
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 1s;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
-}
-
-form {
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 1s;
-    animation-name: fadein;
-    animation-duration: 2s;
 }
 
 @media only screen and (min-width: 601px) {
@@ -612,9 +633,7 @@ form {
     }
 
     .contacttxt {
-        font-family: "Ubuntu Bold";
-        font-size: 1.5em;
-        color: rgb(48, 48, 48);
+        font-size: 2em;
     }
 
     .button {
@@ -655,6 +674,10 @@ form {
         margin-left: 10%;
         width: 80%;
         height: 35%;
+    }
+
+    h2 {
+        font-size: 2em;
     }
 }
 
@@ -802,9 +825,7 @@ form {
     }
 
     .contacttxt {
-        font-family: "Ubuntu Bold";
         font-size: 2.5em;
-        color: rgb(48, 48, 48);
     }
 
     .button {
@@ -818,5 +839,9 @@ form {
         margin-left: 17.5%;
         width: 40%;
         height: 35%;
+    }
+
+    h2 {
+        font-size: 2.5em;
     }
 }
